@@ -9,7 +9,7 @@ namespace Renderer
     {
     public:
         Texture2D(const GLuint width,
-                  GLuint heigth,
+                  GLuint height,
                   const unsigned char* data,
                   const unsigned int channels = 4,
                   const GLenum filter = GL_LINEAR,
